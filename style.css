@@ -20,13 +20,15 @@ li a:hover{
     margin: 0 auto;
     padding-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 25px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
 }
 
 .header{
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
     padding-bottom: 10px;
+    position: sticky;
+    top: 0;
 }
 
 .h-con{
@@ -112,13 +114,15 @@ img{
 }
 
 .card{
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display:inline-block;
-    padding: 20px;
+    width: 100%;
+    padding: 14px;
 }
 
 .w-con .card img{
-    width: 300px;
+    width: 100%;
 }
 
 .w-con .card p{
@@ -134,11 +138,13 @@ img{
     padding: 0.25rem 1rem;
     margin-top: 5px;
     color: royalblue;
+    border-radius: 5px;
 }
 
 .btn-card:hover{
     color:white;
     background-color: royalblue;
+   
 }
 
 .m-btn{
@@ -187,4 +193,9 @@ img{
 
 .m-btn:hover .btn-text{
     color: #cecece;
+}
+
+.card-body p{
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
